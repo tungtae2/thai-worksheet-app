@@ -9,10 +9,15 @@
     },
     {
       "id": "step-2",
-      "type": "ai_generate",
+      "type": "bank_retrieve",
       "params": {
-        "inputStepId": "step-1",
-        "provider": "gemini"
+        "inputs": {
+          "subjectId": "step-1.subjectId",
+          "grade": "step-1.grade",
+          "chapterCode": "step-1.chapterCode",
+          "worksheetType": "step-1.worksheetType",
+          "questionCount": "step-1.questionCount"
+        }
       }
     },
     {

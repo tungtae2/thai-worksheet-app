@@ -6,6 +6,7 @@ const path = require('path');
 const WorkflowEngine = require('../engine/engine');
 const InputStep = require('../steps/input-step');
 const AIGenerateStep = require('../steps/ai-generate-step');
+const BankRetrieveStep = require('../steps/bank-retrieve-step');
 const FormatStep = require('../steps/format-step');
 const ExportStep = require('../steps/export-step');
 
@@ -13,6 +14,7 @@ const ExportStep = require('../steps/export-step');
 const engine = new WorkflowEngine();
 engine.registerStep('input', InputStep);
 engine.registerStep('ai_generate', AIGenerateStep);
+engine.registerStep('bank_retrieve', BankRetrieveStep);
 engine.registerStep('format', FormatStep);
 engine.registerStep('export', ExportStep);
 
