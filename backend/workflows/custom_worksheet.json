@@ -5,7 +5,10 @@
     {
       "id": "step-1",
       "type": "input",
-      "params": {}
+      "params": {
+        "type": "copy_words",
+        "questionCount": 5
+      }
     },
     {
       "id": "step-2",
