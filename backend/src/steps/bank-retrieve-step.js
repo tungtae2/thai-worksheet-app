@@ -7,7 +7,7 @@ class BankRetrieveStep {
     }
 
     async execute(context) {
-        const inputs = this.config.inputs || {};
+        const inputs = this.config.params?.inputs || {};
         
         let subjectId = null;
         let grade = null;
