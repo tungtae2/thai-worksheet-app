@@ -12,10 +12,10 @@
       "type": "bank_retrieve",
       "params": {
         "inputs": {
-          "subjectId": "step-1.subjectId",
+          "subjectId": "step-1.subject",
           "grade": "step-1.grade",
-          "chapterCode": "step-1.chapterCode",
-          "worksheetType": "step-1.worksheetType",
+          "chapterCode": "step-1.indicatorCode",
+          "worksheetType": "step-1.type",
           "questionCount": "step-1.questionCount"
         }
       }
