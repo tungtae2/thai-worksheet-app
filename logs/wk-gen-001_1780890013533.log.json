@@ -1,0 +1,89 @@
+{
+  "timestamp": "2026-06-08T03:40:13.533Z",
+  "workflowId": "wk-gen-001",
+  "status": "SUCCESS",
+  "context": {
+    "workflowId": "wk-gen-001",
+    "outputs": {
+      "step-1": {
+        "grade": "P1",
+        "topic": "Basic Thai Vowels (สระ)",
+        "questionCount": 5,
+        "type": "fill_in_the_blanks"
+      },
+      "step-2": {
+        "title": "ใบงาน: สระในภาษาไทย (ชุดที่ 1)",
+        "instructions": "คำชี้แจง: ให้นักเรียนเติมสระที่ถูกต้องลงในช่องว่างเพื่อให้คำสมบูรณ์และออกเสียงได้ถูกต้อง",
+        "learningObjectives": [
+          "นักเรียนสามารถจดจำรูปสระพื้นฐานได้",
+          "นักเรียนสามารถนำสระไปผสมกับพยัญชนะเพื่อสร้างคำที่ออกเสียงได้"
+        ],
+        "questions": [
+          {
+            "q": "ก + ___ = กะ",
+            "a": "สระอะ (ะ)"
+          },
+          {
+            "q": "ป + ___ = ปา",
+            "a": "สระอา (า)"
+          },
+          {
+            "q": "ม + ___ = มิ",
+            "a": "สระอิ (ิ)"
+          },
+          {
+            "q": "ต + ___ = ตี",
+            "a": "สระอี (ี)"
+          },
+          {
+            "q": "ผ + ___ = ผุ",
+            "a": "สระอุ (ุ)"
+          }
+        ]
+      },
+      "step-3": {
+        "title": "ใบงาน: สระในภาษาไทย (ชุดที่ 1)",
+        "instructions": "คำชี้แจง: ให้นักเรียนเติมสระที่ถูกต้องลงในช่องว่างเพื่อให้คำสมบูรณ์และออกเสียงได้ถูกต้อง",
+        "learningObjectives": [
+          "นักเรียนสามารถจดจำรูปสระพื้นฐานได้",
+          "นักเรียนสามารถนำสระไปผสมกับพยัญชนะเพื่อสร้างคำที่ออกเสียงได้"
+        ],
+        "questions": [
+          {
+            "q": "ก + ___ = กะ",
+            "a": "สระอะ (ะ)"
+          },
+          {
+            "q": "ป + ___ = ปา",
+            "a": "สระอา (า)"
+          },
+          {
+            "q": "ม + ___ = มิ",
+            "a": "สระอิ (ิ)"
+          },
+          {
+            "q": "ต + ___ = ตี",
+            "a": "สระอี (ี)"
+          },
+          {
+            "q": "ผ + ___ = ผุ",
+            "a": "สระอุ (ุ)"
+          }
+        ],
+        "formattedDate": "2026-06-08T03:40:13.446Z"
+      },
+      "step-4": {
+        "format": "txt",
+        "path": "C:\\Users\\ACER\\.gemini\\antigravity\\scratch\\thai-worksheet-automation\\backend\\data\\wk-gen-001_1780890013446.txt"
+      },
+      "step-5": {
+        "format": "docx",
+        "path": "C:\\Users\\ACER\\.gemini\\antigravity\\scratch\\thai-worksheet-automation\\backend\\data\\wk-gen-001_1780890013449.docx"
+      },
+      "step-6": {
+        "format": "pdf",
+        "path": "C:\\Users\\ACER\\.gemini\\antigravity\\scratch\\thai-worksheet-automation\\backend\\data\\wk-gen-001_1780890013477.pdf"
+      }
+    }
+  }
+}

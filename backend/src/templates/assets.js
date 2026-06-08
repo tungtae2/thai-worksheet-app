@@ -1,0 +1,7 @@
+const ASSETS = {
+  star: `<svg width="80" height="80" viewBox="0 0 24 24" fill="#FDE047" stroke="#EAB308" stroke-width="1.5"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>`,
+  cloud: `<svg width="100" height="60" viewBox="0 0 24 24" fill="#E0F2FE" stroke="#7DD3FC" stroke-width="1.5"><path d="M17.5 19C19.9853 19 22 16.9853 22 14.5C22 12.1325 20.1793 10.2048 17.8576 10.0191C17.4367 6.6433 14.5779 4 11 4C7.13401 4 4 7.13401 4 11C4 11.2368 4.01174 11.4708 4.03452 11.7011C2.31682 12.3571 1 14.024 1 16C1 18.2091 2.79086 20 5 20H17.5Z"></path></svg>`,
+  pencil: `<svg width="80" height="80" viewBox="0 0 24 24" fill="#FCA5A5" stroke="#EF4444" stroke-width="1.5"><path d="M12 20h9M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path></svg>`,
+  sun: `<svg width="80" height="80" viewBox="0 0 24 24" fill="#FEF08A" stroke="#F59E0B" stroke-width="1.5"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>`
+};
+module.exports = ASSETS;

@@ -1,0 +1,89 @@
+{
+  "timestamp": "2026-06-08T04:05:54.195Z",
+  "workflowId": "wk-gen-001",
+  "status": "SUCCESS",
+  "context": {
+    "workflowId": "wk-gen-001",
+    "outputs": {
+      "step-1": {
+        "grade": "P1",
+        "topic": "อ่านออกเสียงคำ คำคล้องจอง และข้อความสั้นๆ",
+        "questionCount": 5,
+        "type": "fill_in_the_blanks"
+      },
+      "step-2": {
+        "title": "ใบงานภาษาไทย: อ่านออกเสียงและเติมคำ (ป.1)",
+        "instructions": "คำชี้แจง: ให้นักเรียนอ่านประโยคและเติมคำในช่องว่างให้ถูกต้อง",
+        "learningObjectives": [
+          "นักเรียนสามารถอ่านออกเสียงคำและข้อความสั้นๆ ได้",
+          "นักเรียนสามารถเติมคำคล้องจองและคำที่เหมาะสมในประโยคได้"
+        ],
+        "questions": [
+          {
+            "q": "กา มา หา ____",
+            "a": "ตา"
+          },
+          {
+            "q": "คุณปู่ไป ____ ปลา",
+            "a": "หา"
+          },
+          {
+            "q": "น้อง ____ ทีวี",
+            "a": "ดู"
+          },
+          {
+            "q": "คุณแม่ ____ ข้าวเช้า",
+            "a": "กิน"
+          },
+          {
+            "q": "ฉันมี ____ สองข้าง",
+            "a": "มือ"
+          }
+        ]
+      },
+      "step-3": {
+        "title": "ใบงานภาษาไทย: อ่านออกเสียงและเติมคำ (ป.1)",
+        "instructions": "คำชี้แจง: ให้นักเรียนอ่านประโยคและเติมคำในช่องว่างให้ถูกต้อง",
+        "learningObjectives": [
+          "นักเรียนสามารถอ่านออกเสียงคำและข้อความสั้นๆ ได้",
+          "นักเรียนสามารถเติมคำคล้องจองและคำที่เหมาะสมในประโยคได้"
+        ],
+        "questions": [
+          {
+            "q": "กา มา หา ____",
+            "a": "ตา"
+          },
+          {
+            "q": "คุณปู่ไป ____ ปลา",
+            "a": "หา"
+          },
+          {
+            "q": "น้อง ____ ทีวี",
+            "a": "ดู"
+          },
+          {
+            "q": "คุณแม่ ____ ข้าวเช้า",
+            "a": "กิน"
+          },
+          {
+            "q": "ฉันมี ____ สองข้าง",
+            "a": "มือ"
+          }
+        ],
+        "formattedDate": "2026-06-08T04:05:51.912Z"
+      },
+      "step-4": {
+        "format": "txt",
+        "path": "C:\\Users\\ACER\\.gemini\\antigravity\\scratch\\thai-worksheet-automation\\backend\\data\\wk-gen-001_1780891551913.txt"
+      },
+      "step-5": {
+        "format": "docx",
+        "path": "C:\\Users\\ACER\\.gemini\\antigravity\\scratch\\thai-worksheet-automation\\backend\\data\\wk-gen-001_1780891551915.docx"
+      },
+      "step-6": {
+        "format": "pdf",
+        "path": "C:\\Users\\ACER\\.gemini\\antigravity\\scratch\\thai-worksheet-automation\\backend\\data\\wk-gen-001_1780891551943.pdf"
+      }
+    }
+  }
+}

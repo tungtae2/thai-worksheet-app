@@ -1,0 +1,107 @@
+{
+  "timestamp": "2026-06-08T07:18:03.398Z",
+  "workflowId": "wk-custom-001",
+  "status": "SUCCESS",
+  "context": {
+    "workflowId": "wk-custom-001",
+    "outputs": {
+      "step-1": {
+        "grade": "P1",
+        "topic": "ใบโบก ใบบัว",
+        "type": "write_pronunciation"
+      },
+      "step-2": {
+        "title": "ใบงานวิชาภาษาไทย ป.1: ใบโบก ใบบัว",
+        "instructions": "คำชี้แจง: ให้นักเรียนเขียนคำอ่านของคำศัพท์ที่กำหนดให้ถูกต้อง",
+        "learningObjectives": [
+          "นักเรียนสามารถอ่านออกเสียงคำศัพท์จากบทเรียน ใบโบก ใบบัว ได้ถูกต้อง",
+          "นักเรียนสามารถเขียนคำอ่านของคำศัพท์ที่กำหนดให้ได้"
+        ],
+        "type": "write_pronunciation",
+        "questions": [
+          {
+            "q": "ใบโบก",
+            "a": "ใบ-โบก"
+          },
+          {
+            "q": "ใบบัว",
+            "a": "ใบ-บัว"
+          },
+          {
+            "q": "ตา",
+            "a": "ตา"
+          },
+          {
+            "q": "ขา",
+            "a": "ขา"
+          },
+          {
+            "q": "หู",
+            "a": "หู"
+          },
+          {
+            "q": "งวง",
+            "a": "งวง"
+          },
+          {
+            "q": "ช้าง",
+            "a": "ช้าง"
+          }
+        ]
+      },
+      "step-3": {
+        "title": "ใบงานวิชาภาษาไทย ป.1: ใบโบก ใบบัว",
+        "instructions": "คำชี้แจง: ให้นักเรียนเขียนคำอ่านของคำศัพท์ที่กำหนดให้ถูกต้อง",
+        "learningObjectives": [
+          "นักเรียนสามารถอ่านออกเสียงคำศัพท์จากบทเรียน ใบโบก ใบบัว ได้ถูกต้อง",
+          "นักเรียนสามารถเขียนคำอ่านของคำศัพท์ที่กำหนดให้ได้"
+        ],
+        "type": "write_pronunciation",
+        "questions": [
+          {
+            "q": "ใบโบก",
+            "a": "ใบ-โบก"
+          },
+          {
+            "q": "ใบบัว",
+            "a": "ใบ-บัว"
+          },
+          {
+            "q": "ตา",
+            "a": "ตา"
+          },
+          {
+            "q": "ขา",
+            "a": "ขา"
+          },
+          {
+            "q": "หู",
+            "a": "หู"
+          },
+          {
+            "q": "งวง",
+            "a": "งวง"
+          },
+          {
+            "q": "ช้าง",
+            "a": "ช้าง"
+          }
+        ],
+        "indicatorCode": null,
+        "formattedDate": "2026-06-08T07:18:00.714Z"
+      },
+      "step-4": {
+        "format": "txt",
+        "path": "C:\\Users\\ACER\\.gemini\\antigravity\\scratch\\thai-worksheet-automation\\backend\\data\\wk-custom-001_1780903080714.txt"
+      },
+      "step-5": {
+        "format": "docx",
+        "path": "C:\\Users\\ACER\\.gemini\\antigravity\\scratch\\thai-worksheet-automation\\backend\\data\\wk-custom-001_1780903080717.docx"
+      },
+      "step-6": {
+        "format": "pdf",
+        "path": "C:\\Users\\ACER\\.gemini\\antigravity\\scratch\\thai-worksheet-automation\\backend\\data\\wk-custom-001_1780903080743.pdf"
+      }
+    }
+  }
+}

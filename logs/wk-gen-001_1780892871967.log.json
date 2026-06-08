@@ -1,0 +1,68 @@
+{
+  "timestamp": "2026-06-08T04:27:51.967Z",
+  "workflowId": "wk-gen-001",
+  "status": "SUCCESS",
+  "context": {
+    "workflowId": "wk-gen-001",
+    "outputs": {
+      "step-1": {
+        "grade": "P1",
+        "topic": "สระ",
+        "questionCount": 2,
+        "type": "make_sentences"
+      },
+      "step-2": {
+        "title": "แบบฝึกหัดสร้างประโยค: สนุกกับสระ",
+        "instructions": "นักเรียนนำคำศัพท์ที่กำหนดให้ มาแต่งประโยคให้ถูกต้องและมีความหมาย",
+        "learningObjectives": [
+          "นักเรียนสามารถอ่านและเข้าใจคำศัพท์ง่ายๆ ที่มีสระได้",
+          "นักเรียนสามารถแต่งประโยคสั้นๆ จากคำศัพท์ที่กำหนดให้ได้"
+        ],
+        "type": "make_sentences",
+        "questions": [
+          {
+            "q": "ปู",
+            "a": ""
+          },
+          {
+            "q": "ดี",
+            "a": ""
+          }
+        ]
+      },
+      "step-3": {
+        "title": "แบบฝึกหัดสร้างประโยค: สนุกกับสระ",
+        "instructions": "นักเรียนนำคำศัพท์ที่กำหนดให้ มาแต่งประโยคให้ถูกต้องและมีความหมาย",
+        "learningObjectives": [
+          "นักเรียนสามารถอ่านและเข้าใจคำศัพท์ง่ายๆ ที่มีสระได้",
+          "นักเรียนสามารถแต่งประโยคสั้นๆ จากคำศัพท์ที่กำหนดให้ได้"
+        ],
+        "type": "make_sentences",
+        "questions": [
+          {
+            "q": "ปู",
+            "a": ""
+          },
+          {
+            "q": "ดี",
+            "a": ""
+          }
+        ],
+        "indicatorCode": null,
+        "formattedDate": "2026-06-08T04:27:50.125Z"
+      },
+      "step-4": {
+        "format": "txt",
+        "path": "C:\\Users\\ACER\\.gemini\\antigravity\\scratch\\thai-worksheet-automation\\backend\\data\\wk-gen-001_1780892870125.txt"
+      },
+      "step-5": {
+        "format": "docx",
+        "path": "C:\\Users\\ACER\\.gemini\\antigravity\\scratch\\thai-worksheet-automation\\backend\\data\\wk-gen-001_1780892870126.docx"
+      },
+      "step-6": {
+        "format": "pdf",
+        "path": "C:\\Users\\ACER\\.gemini\\antigravity\\scratch\\thai-worksheet-automation\\backend\\data\\wk-gen-001_1780892870153.pdf"
+      }
+    }
+  }
+}

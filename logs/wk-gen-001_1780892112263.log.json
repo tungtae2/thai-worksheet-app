@@ -1,0 +1,90 @@
+{
+  "timestamp": "2026-06-08T04:15:12.263Z",
+  "workflowId": "wk-gen-001",
+  "status": "SUCCESS",
+  "context": {
+    "workflowId": "wk-gen-001",
+    "outputs": {
+      "step-1": {
+        "grade": "P1",
+        "topic": "คัดลายมือตัวบรรจงเต็มบรรทัด",
+        "questionCount": 5,
+        "type": "copy_words"
+      },
+      "step-2": {
+        "title": "แบบฝึกคัดลายมือ ตัวบรรจงเต็มบรรทัด ป.1",
+        "instructions": "ให้นักเรียนคัดคำศัพท์ต่อไปนี้ให้สวยงาม เต็มบรรทัด และถูกต้อง",
+        "learningObjectives": [
+          "นักเรียนสามารถคัดลายมือตัวบรรจงเต็มบรรทัดได้ถูกต้อง",
+          "นักเรียนสามารถเขียนพยัญชนะและสระไทยได้สวยงาม"
+        ],
+        "type": "copy_words",
+        "questions": [
+          {
+            "q": "กา",
+            "a": ""
+          },
+          {
+            "q": "ตา",
+            "a": ""
+          },
+          {
+            "q": "งู",
+            "a": ""
+          },
+          {
+            "q": "ปู",
+            "a": ""
+          },
+          {
+            "q": "มือ",
+            "a": ""
+          }
+        ]
+      },
+      "step-3": {
+        "title": "แบบฝึกคัดลายมือ ตัวบรรจงเต็มบรรทัด ป.1",
+        "instructions": "ให้นักเรียนคัดคำศัพท์ต่อไปนี้ให้สวยงาม เต็มบรรทัด และถูกต้อง",
+        "learningObjectives": [
+          "นักเรียนสามารถคัดลายมือตัวบรรจงเต็มบรรทัดได้ถูกต้อง",
+          "นักเรียนสามารถเขียนพยัญชนะและสระไทยได้สวยงาม"
+        ],
+        "questions": [
+          {
+            "q": "กา",
+            "a": ""
+          },
+          {
+            "q": "ตา",
+            "a": ""
+          },
+          {
+            "q": "งู",
+            "a": ""
+          },
+          {
+            "q": "ปู",
+            "a": ""
+          },
+          {
+            "q": "มือ",
+            "a": ""
+          }
+        ],
+        "formattedDate": "2026-06-08T04:15:10.059Z"
+      },
+      "step-4": {
+        "format": "txt",
+        "path": "C:\\Users\\ACER\\.gemini\\antigravity\\scratch\\thai-worksheet-automation\\backend\\data\\wk-gen-001_1780892110059.txt"
+      },
+      "step-5": {
+        "format": "docx",
+        "path": "C:\\Users\\ACER\\.gemini\\antigravity\\scratch\\thai-worksheet-automation\\backend\\data\\wk-gen-001_1780892110061.docx"
+      },
+      "step-6": {
+        "format": "pdf",
+        "path": "C:\\Users\\ACER\\.gemini\\antigravity\\scratch\\thai-worksheet-automation\\backend\\data\\wk-gen-001_1780892110094.pdf"
+      }
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": "wk-custom-001",
+  "name": "เครื่องมือสร้างใบงานอัจฉริยะ (Custom Thai Worksheet)",
+  "steps": [
+    {
+      "id": "step-1",
+      "type": "input",
+      "params": {}
+    },
+    {
+      "id": "step-2",
+      "type": "ai_generate",
+      "params": {
+        "inputStepId": "step-1",
+        "provider": "gemini"
+      }
+    },
+    {
+      "id": "step-3",
+      "type": "format",
+      "params": {
+        "aiStepId": "step-2"
+      }
+    },
+    {
+      "id": "step-4",
+      "type": "export",
+      "params": {
+        "formatStepId": "step-3",
+        "format": "txt"
+      }
+    },
+    {
+      "id": "step-5",
+      "type": "export",
+      "params": {
+        "formatStepId": "step-3",
+        "format": "docx"
+      }
+    },
+    {
+      "id": "step-6",
+      "type": "export",
+      "params": {
+        "formatStepId": "step-3",
+        "format": "pdf"
+      }
+    }
+  ]
+}

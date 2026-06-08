@@ -1,0 +1,109 @@
+{
+  "timestamp": "2026-06-08T07:10:37.909Z",
+  "workflowId": "wk-custom-001",
+  "status": "SUCCESS",
+  "context": {
+    "workflowId": "wk-custom-001",
+    "outputs": {
+      "step-1": {
+        "grade": "P1",
+        "topic": "ใบโบก ใบบัว",
+        "type": "make_sentences"
+      },
+      "step-2": {
+        "title": "แบบฝึกหัดสร้างประโยค: ใบโบก ใบบัว",
+        "instructions": "คำชี้แจง: ให้นักเรียนนำคำศัพท์ที่กำหนดให้ มาแต่งประโยคให้ถูกต้องและมีความหมาย",
+        "learningObjectives": [
+          "นักเรียนสามารถอ่านออกเสียงคำศัพท์จากเรื่อง ใบโบก ใบบัว ได้ถูกต้อง",
+          "นักเรียนสามารถแต่งประโยคจากคำศัพท์ที่กำหนดให้ได้",
+          "นักเรียนสามารถเข้าใจความหมายของคำศัพท์พื้นฐานจากเรื่อง ใบโบก ใบบัว"
+        ],
+        "type": "make_sentences",
+        "questions": [
+          {
+            "q": "ใบโบก",
+            "a": ""
+          },
+          {
+            "q": "ใบบัว",
+            "a": ""
+          },
+          {
+            "q": "มี",
+            "a": ""
+          },
+          {
+            "q": "ตา",
+            "a": ""
+          },
+          {
+            "q": "ขา",
+            "a": ""
+          },
+          {
+            "q": "หู",
+            "a": ""
+          },
+          {
+            "q": "งวง",
+            "a": ""
+          }
+        ]
+      },
+      "step-3": {
+        "title": "แบบฝึกหัดสร้างประโยค: ใบโบก ใบบัว",
+        "instructions": "คำชี้แจง: ให้นักเรียนนำคำศัพท์ที่กำหนดให้ มาแต่งประโยคให้ถูกต้องและมีความหมาย",
+        "learningObjectives": [
+          "นักเรียนสามารถอ่านออกเสียงคำศัพท์จากเรื่อง ใบโบก ใบบัว ได้ถูกต้อง",
+          "นักเรียนสามารถแต่งประโยคจากคำศัพท์ที่กำหนดให้ได้",
+          "นักเรียนสามารถเข้าใจความหมายของคำศัพท์พื้นฐานจากเรื่อง ใบโบก ใบบัว"
+        ],
+        "type": "make_sentences",
+        "questions": [
+          {
+            "q": "ใบโบก",
+            "a": ""
+          },
+          {
+            "q": "ใบบัว",
+            "a": ""
+          },
+          {
+            "q": "มี",
+            "a": ""
+          },
+          {
+            "q": "ตา",
+            "a": ""
+          },
+          {
+            "q": "ขา",
+            "a": ""
+          },
+          {
+            "q": "หู",
+            "a": ""
+          },
+          {
+            "q": "งวง",
+            "a": ""
+          }
+        ],
+        "indicatorCode": null,
+        "formattedDate": "2026-06-08T07:10:35.060Z"
+      },
+      "step-4": {
+        "format": "txt",
+        "path": "C:\\Users\\ACER\\.gemini\\antigravity\\scratch\\thai-worksheet-automation\\backend\\data\\wk-custom-001_1780902635060.txt"
+      },
+      "step-5": {
+        "format": "docx",
+        "path": "C:\\Users\\ACER\\.gemini\\antigravity\\scratch\\thai-worksheet-automation\\backend\\data\\wk-custom-001_1780902635069.docx"
+      },
+      "step-6": {
+        "format": "pdf",
+        "path": "C:\\Users\\ACER\\.gemini\\antigravity\\scratch\\thai-worksheet-automation\\backend\\data\\wk-custom-001_1780902635145.pdf"
+      }
+    }
+  }
+}

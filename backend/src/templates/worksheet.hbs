@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <title>{{title}}</title>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&family=Sarabun:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #FDF8F5;
+            --primary: #FF9A9E;
+            --secondary: #FECFEF;
+            --text-color: #4A4A4A;
+        }
+        body {
+            font-family: 'Itim', cursive;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 40px;
+            box-sizing: border-box;
+            width: 794px; /* A4 width */
+            min-height: 1123px; /* A4 min-height */
+        }
+        .worksheet-container {
+            border: 6px dashed var(--primary);
+            border-radius: 30px;
+            padding: 30px;
+            background-color: white;
+            position: relative;
+            min-height: 1043px; /* 1123 - 80 padding */
+            box-sizing: border-box;
+        }
+        .decoration {
+            position: absolute;
+            z-index: 10;
+        }
+        .dec-top-left { top: -30px; left: -30px; }
+        .dec-top-right { top: -30px; right: -30px; transform: scaleX(-1); }
+        .dec-bottom-right { bottom: -30px; right: -30px; }
+        .dec-bottom-left { bottom: -30px; left: -30px; transform: scaleX(-1); }
+
+        h1 {
+            font-size: 34px;
+            text-align: center;
+            color: var(--primary);
+            margin-bottom: 10px;
+            margin-top: 15px;
+        }
+        .student-info {
+            display: flex;
+            justify-content: space-between;
+            font-size: 20px;
+            margin-bottom: 20px;
+            border-bottom: 3px solid var(--secondary);
+            padding-bottom: 10px;
+        }
+        .instructions {
+            background-color: var(--secondary);
+            padding: 15px;
+            border-radius: 15px;
+            font-size: 20px;
+            margin-bottom: 20px;
+            color: #d81b60;
+            page-break-inside: avoid;
+            break-inside: avoid;
+        }
+        .questions {
+            font-size: 22px;
+            line-height: 2.0;
+        }
+        .question-item {
+            margin-bottom: 15px;
+            padding: 15px;
+            border: 3px solid #E2E8F0;
+            border-radius: 15px;
+            background-color: #F8FAFC;
+            display: flex;
+            align-items: center;
+            page-break-inside: avoid;
+            break-inside: avoid;
+        }
+        .thai-writing-container {
+            flex-grow: 1;
+            height: 90px;
+            margin-left: 20px;
+            position: relative;
+            background-color: transparent;
+        }
+        .sentence-writing-container {
+            width: 100%;
+            height: 90px;
+            margin-top: 10px;
+            position: relative;
+            background-color: transparent;
+        }
+        .thai-writing-grid {
+            position: absolute;
+            top: 25px; /* Leave space for superscripts */
+            left: 0;
+            right: 0;
+            height: 40px; /* 4 spaces of 10px each */
+            border-top: 2px solid #64748b;
+            border-bottom: 2px solid #64748b;
+            background-image: 
+                linear-gradient(to bottom, 
+                transparent 9px, #cbd5e1 10px, transparent 10px, 
+                transparent 19px, #94a3b8 20px, transparent 20px, 
+                transparent 29px, #cbd5e1 30px, transparent 30px);
+        }
+        .word-bank {
+            border: 3px dashed var(--primary);
+            border-radius: 15px;
+            padding: 15px;
+            margin-bottom: 20px;
+            text-align: center;
+            background-color: #FEF2F2;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+            page-break-inside: avoid;
+            break-inside: avoid;
+        }
+        .word-badge {
+            background-color: white;
+            border: 2px solid var(--primary);
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 20px;
+            font-weight: bold;
+            color: #d81b60;
+            box-shadow: 2px 2px 0 var(--primary);
+        }
+        .matching-container {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 15px;
+        }
+        .match-col {
+            width: 45%;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .match-item {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: white;
+            padding: 15px 20px;
+            border: 3px solid #E2E8F0;
+            border-radius: 15px;
+            min-height: 60px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            page-break-inside: avoid;
+            break-inside: avoid;
+        }
+        .match-dot {
+            width: 16px;
+            height: 16px;
+            background-color: var(--primary);
+            border-radius: 50%;
+            border: 3px solid white;
+            box-shadow: 0 0 0 2px var(--primary);
+        }
+        .left-col .match-item { flex-direction: row; }
+        .right-col .match-item { flex-direction: row-reverse; }
+        
+        .indicator-badge {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background-color: #E2E8F0;
+            color: #475569;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 16px;
+            font-family: 'Sarabun', sans-serif;
+            font-weight: bold;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+    </style>
+</head>
+<body>
+    <div class="worksheet-container">
+        <!-- SVG Decorations injected -->
+        <div class="decoration dec-top-left">{{{assets.dec1}}}</div>
+        <div class="decoration dec-top-right">{{{assets.dec2}}}</div>
+        <div class="decoration dec-bottom-right">{{{assets.dec3}}}</div>
+        <div class="decoration dec-bottom-left">{{{assets.dec4}}}</div>
+
+        {{#if indicatorCode}}
+        <div class="indicator-badge">ตัวชี้วัด: {{indicatorCode}}</div>
+        {{/if}}
+
+        <h1>{{{title}}}</h1>
+        <div class="student-info">
+            <span>ชื่อ-สกุล _______________________________</span>
+            <span>ชั้น ________</span>
+            <span>เลขที่ _____</span>
+        </div>
+        
+        <div class="instructions">
+            <strong>คำชี้แจง:</strong> {{{instructions}}}
+        </div>
+
+        {{#if (eq type "fill_sentences")}}
+        <div class="word-bank">
+            {{#each wordBank}}
+            <div class="word-badge">{{this}}</div>
+            {{/each}}
+        </div>
+        <div class="questions">
+            {{#each questions}}
+            <div class="question-item">
+                <strong>{{addOne @index}}.</strong> {{{this.q}}} 
+            </div>
+            {{/each}}
+        </div>
+        {{/if}}
+
+        {{#if (eq type "copy_words")}}
+        <div class="questions">
+            {{#each questions}}
+            <div class="question-item">
+                <strong>{{addOne @index}}.</strong> <span style="min-width: 100px; display:inline-block;">{{{this.q}}}</span>
+                <div class="thai-writing-container"><div class="thai-writing-grid"></div></div>
+                <div class="thai-writing-container"><div class="thai-writing-grid"></div></div>
+            </div>
+            {{/each}}
+        </div>
+        {{/if}}
+
+        {{#if (eq type "make_sentences")}}
+        <div class="questions">
+            {{#each questions}}
+            <div class="question-item" style="flex-direction: column; align-items: flex-start;">
+                <div><strong>{{addOne @index}}.</strong> {{{this.q}}}</div>
+                <div class="sentence-writing-container"><div class="thai-writing-grid"></div></div>
+                <div class="sentence-writing-container"><div class="thai-writing-grid"></div></div>
+            </div>
+            {{/each}}
+        </div>
+        {{/if}}
+
+        {{#if (eq type "write_pronunciation")}}
+        <div class="questions">
+            {{#each questions}}
+            <div class="question-item">
+                <strong>{{addOne @index}}.</strong> {{{this.q}}} 
+                <span style="margin: 0 15px;">อ่านว่า</span>
+                <div class="thai-writing-container"><div class="thai-writing-grid"></div></div>
+            </div>
+            {{/each}}
+        </div>
+        {{/if}}
+
+        {{#if (eq type "matching")}}
+        <div class="matching-container">
+            <div class="match-col left-col">
+                {{#each questions}}
+                <div class="match-item">
+                    <span><strong>{{addOne @index}}.</strong> {{{this.q}}}</span>
+                    <div class="match-dot"></div>
+                </div>
+                {{/each}}
+            </div>
+            <div class="match-col right-col">
+                {{#each questions}}
+                <div class="match-item">
+                    <span>{{{this.a}}}</span>
+                    <div class="match-dot"></div>
+                </div>
+                {{/each}}
+            </div>
+        </div>
+        {{/if}}
+
+    </div>
+</body>
+</html>

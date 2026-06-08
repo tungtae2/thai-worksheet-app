@@ -1,0 +1,92 @@
+{
+  "timestamp": "2026-06-08T04:14:23.079Z",
+  "workflowId": "wk-gen-001",
+  "status": "SUCCESS",
+  "context": {
+    "workflowId": "wk-gen-001",
+    "outputs": {
+      "step-1": {
+        "grade": "P1",
+        "topic": "คัดลายมือตัวบรรจงเต็มบรรทัด",
+        "questionCount": 5,
+        "type": "write_pronunciation"
+      },
+      "step-2": {
+        "title": "แบบฝึกหัด: ฝึกอ่านออกเสียงคำ",
+        "instructions": "นักเรียนอ่านคำที่กำหนดให้ แล้วเขียนคำอ่านให้ถูกต้องลงในช่องว่าง",
+        "learningObjectives": [
+          "นักเรียนสามารถอ่านออกเสียงคำที่มีพยัญชนะควบกล้ำไม่แท้ได้",
+          "นักเรียนสามารถอ่านออกเสียงคำที่มี ห นำ และ อ นำ ได้",
+          "นักเรียนเขียนสะกดคำอ่านได้ถูกต้อง"
+        ],
+        "type": "write_pronunciation",
+        "questions": [
+          {
+            "q": "จริง",
+            "a": "จิง"
+          },
+          {
+            "q": "ทราบ",
+            "a": "ซาบ"
+          },
+          {
+            "q": "อยู่",
+            "a": "หยู่"
+          },
+          {
+            "q": "ใหญ่",
+            "a": "หย่าย"
+          },
+          {
+            "q": "หลับ",
+            "a": "หลับ"
+          }
+        ]
+      },
+      "step-3": {
+        "title": "แบบฝึกหัด: ฝึกอ่านออกเสียงคำ",
+        "instructions": "นักเรียนอ่านคำที่กำหนดให้ แล้วเขียนคำอ่านให้ถูกต้องลงในช่องว่าง",
+        "learningObjectives": [
+          "นักเรียนสามารถอ่านออกเสียงคำที่มีพยัญชนะควบกล้ำไม่แท้ได้",
+          "นักเรียนสามารถอ่านออกเสียงคำที่มี ห นำ และ อ นำ ได้",
+          "นักเรียนเขียนสะกดคำอ่านได้ถูกต้อง"
+        ],
+        "questions": [
+          {
+            "q": "จริง",
+            "a": "จิง"
+          },
+          {
+            "q": "ทราบ",
+            "a": "ซาบ"
+          },
+          {
+            "q": "อยู่",
+            "a": "หยู่"
+          },
+          {
+            "q": "ใหญ่",
+            "a": "หย่าย"
+          },
+          {
+            "q": "หลับ",
+            "a": "หลับ"
+          }
+        ],
+        "formattedDate": "2026-06-08T04:14:20.651Z"
+      },
+      "step-4": {
+        "format": "txt",
+        "path": "C:\\Users\\ACER\\.gemini\\antigravity\\scratch\\thai-worksheet-automation\\backend\\data\\wk-gen-001_1780892060651.txt"
+      },
+      "step-5": {
+        "format": "docx",
+        "path": "C:\\Users\\ACER\\.gemini\\antigravity\\scratch\\thai-worksheet-automation\\backend\\data\\wk-gen-001_1780892060660.docx"
+      },
+      "step-6": {
+        "format": "pdf",
+        "path": "C:\\Users\\ACER\\.gemini\\antigravity\\scratch\\thai-worksheet-automation\\backend\\data\\wk-gen-001_1780892060735.pdf"
+      }
+    }
+  }
+}

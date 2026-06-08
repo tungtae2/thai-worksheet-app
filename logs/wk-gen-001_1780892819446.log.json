@@ -1,0 +1,68 @@
+{
+  "timestamp": "2026-06-08T04:26:59.446Z",
+  "workflowId": "wk-gen-001",
+  "status": "SUCCESS",
+  "context": {
+    "workflowId": "wk-gen-001",
+    "outputs": {
+      "step-1": {
+        "grade": "P1",
+        "topic": "สระ",
+        "questionCount": 2,
+        "type": "make_sentences"
+      },
+      "step-2": {
+        "title": "ใบงานเรื่อง สระแสนสนุก",
+        "instructions": "คำชี้แจง: ให้นักเรียนแต่งประโยคจากคำที่กำหนดให้",
+        "learningObjectives": [
+          "นักเรียนสามารถอ่านคำที่มีสระพื้นฐานได้",
+          "นักเรียนสามารถนำคำที่กำหนดให้ไปแต่งประโยคง่ายๆ ได้"
+        ],
+        "type": "make_sentences",
+        "questions": [
+          {
+            "q": "กา",
+            "a": ""
+          },
+          {
+            "q": "ดี",
+            "a": ""
+          }
+        ]
+      },
+      "step-3": {
+        "title": "ใบงานเรื่อง สระแสนสนุก",
+        "instructions": "คำชี้แจง: ให้นักเรียนแต่งประโยคจากคำที่กำหนดให้",
+        "learningObjectives": [
+          "นักเรียนสามารถอ่านคำที่มีสระพื้นฐานได้",
+          "นักเรียนสามารถนำคำที่กำหนดให้ไปแต่งประโยคง่ายๆ ได้"
+        ],
+        "type": "make_sentences",
+        "questions": [
+          {
+            "q": "กา",
+            "a": ""
+          },
+          {
+            "q": "ดี",
+            "a": ""
+          }
+        ],
+        "indicatorCode": null,
+        "formattedDate": "2026-06-08T04:26:57.443Z"
+      },
+      "step-4": {
+        "format": "txt",
+        "path": "C:\\Users\\ACER\\.gemini\\antigravity\\scratch\\thai-worksheet-automation\\backend\\data\\wk-gen-001_1780892817443.txt"
+      },
+      "step-5": {
+        "format": "docx",
+        "path": "C:\\Users\\ACER\\.gemini\\antigravity\\scratch\\thai-worksheet-automation\\backend\\data\\wk-gen-001_1780892817445.docx"
+      },
+      "step-6": {
+        "format": "pdf",
+        "path": "C:\\Users\\ACER\\.gemini\\antigravity\\scratch\\thai-worksheet-automation\\backend\\data\\wk-gen-001_1780892817475.pdf"
+      }
+    }
+  }
+}

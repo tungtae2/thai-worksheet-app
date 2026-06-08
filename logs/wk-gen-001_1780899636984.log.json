@@ -1,0 +1,92 @@
+{
+  "timestamp": "2026-06-08T06:20:36.984Z",
+  "workflowId": "wk-gen-001",
+  "status": "SUCCESS",
+  "context": {
+    "workflowId": "wk-gen-001",
+    "outputs": {
+      "step-1": {
+        "grade": "P1",
+        "topic": "อ่านออกเสียงคำ คำคล้องจอง และข้อความสั้นๆ",
+        "questionCount": 5,
+        "type": "copy_words"
+      },
+      "step-2": {
+        "title": "ฝึกคัดคำศัพท์น่ารู้",
+        "instructions": "คำชี้แจง: ให้นักเรียนอ่านคำศัพท์แล้วคัดตามให้สวยงาม",
+        "learningObjectives": [
+          "นักเรียนสามารถอ่านออกเสียงคำง่ายๆ ได้",
+          "นักเรียนสามารถคัดลายมือคำศัพท์ง่ายๆ ได้ถูกต้อง"
+        ],
+        "type": "copy_words",
+        "questions": [
+          {
+            "q": "ตา",
+            "a": ""
+          },
+          {
+            "q": "กา",
+            "a": ""
+          },
+          {
+            "q": "นา",
+            "a": ""
+          },
+          {
+            "q": "ปลา",
+            "a": ""
+          },
+          {
+            "q": "มือ",
+            "a": ""
+          }
+        ]
+      },
+      "step-3": {
+        "title": "ฝึกคัดคำศัพท์น่ารู้",
+        "instructions": "คำชี้แจง: ให้นักเรียนอ่านคำศัพท์แล้วคัดตามให้สวยงาม",
+        "learningObjectives": [
+          "นักเรียนสามารถอ่านออกเสียงคำง่ายๆ ได้",
+          "นักเรียนสามารถคัดลายมือคำศัพท์ง่ายๆ ได้ถูกต้อง"
+        ],
+        "type": "copy_words",
+        "questions": [
+          {
+            "q": "ตา",
+            "a": ""
+          },
+          {
+            "q": "กา",
+            "a": ""
+          },
+          {
+            "q": "นา",
+            "a": ""
+          },
+          {
+            "q": "ปลา",
+            "a": ""
+          },
+          {
+            "q": "มือ",
+            "a": ""
+          }
+        ],
+        "indicatorCode": null,
+        "formattedDate": "2026-06-08T06:20:34.490Z"
+      },
+      "step-4": {
+        "format": "txt",
+        "path": "C:\\Users\\ACER\\.gemini\\antigravity\\scratch\\thai-worksheet-automation\\backend\\data\\wk-gen-001_1780899634490.txt"
+      },
+      "step-5": {
+        "format": "docx",
+        "path": "C:\\Users\\ACER\\.gemini\\antigravity\\scratch\\thai-worksheet-automation\\backend\\data\\wk-gen-001_1780899634493.docx"
+      },
+      "step-6": {
+        "format": "pdf",
+        "path": "C:\\Users\\ACER\\.gemini\\antigravity\\scratch\\thai-worksheet-automation\\backend\\data\\wk-gen-001_1780899634520.pdf"
+      }
+    }
+  }
+}
